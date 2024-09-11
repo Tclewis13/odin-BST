@@ -6,4 +6,8 @@ class Node
     self.left_child = nil
     self.right_child = nil
   end
+
+  def to_s
+    puts "Data: #{data} Left Child: #{left_child} Right Child: #{right_child}"
+  end
 end
